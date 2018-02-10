@@ -16,7 +16,7 @@ cfg.items = {
   ["Logs"] = {"Freshly Cut Wood", "RedWood Logs.", nil, 1}, -- no choices
   ["Planks"] = {"RedWood Planks", "RedWood Planks.", nil, 1}, -- no choices
   ["package"] = {"Unknown Package", "Unknown Package", nil, 1}, -- no choices
-  ["ruby"] = {"ruby's", "ruby's", nil, 1}, -- no choices
+  ["ruby"] = {"rubys", "rubys", nil, 1}, -- no choices
   ["emerald"] = {"Emeralds", "Emeralds.", nil, 1}, -- no choices
   ["diamond"] = {"Diamonds", "Diamonds", nil, 1}, -- no choices
 }

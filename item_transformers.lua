@@ -202,11 +202,11 @@ cfg.item_transformers = {
     }
   },
   {
-    name="Ruby", -- menu name -591.55133056641,2073.2082519531,131.33474731445
+    name="Ruby", -- menu name -591.46490478516,2072.7470703125,131.29724121094
     r=255,g=125,b=0, -- color
     max_units=1,
     units_per_minute=1,
-    x=-591.55133056641,y=2073.2082519531,z=131.33474731445,
+    x=-591.46490478516,y=2072.7470703125,z=131.29724121094,
     radius=2, height=1.0, -- area
     recipes = {
       ["Mine Ruby"] = { -- action name
@@ -222,15 +222,15 @@ cfg.item_transformers = {
     }
   },
   {
-    name="Emerald", -- menu name -587.17193603516,2054.8559570313,130.3518371582
+    name="Emerald", -- menu name -589.03253173828,2060.8156738282,130.77743530274
     r=255,g=125,b=0, -- color
     max_units=1,
     units_per_minute=1,
-    x=-587.17193603516,y=2054.8559570313,z=130.3518371582,
+    x=-589.03253173828,y=2060.8156738282,z=130.77743530274,
     radius=2, height=1.0, -- area
     recipes = {
       ["Mine Emerald"] = { -- action name
-       description="Mine your ruby here.",
+       description="Mine your Emerald here.",
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={}, -- items taken per unit
@@ -242,15 +242,15 @@ cfg.item_transformers = {
     }
   },
   {
-    name="Diamond", -- menu name -582.75408935547,2040.2711181641,129.25628662109
+    name="Diamond", -- menu name -587.59161376954,2049.3256835938,129.89027404786
     r=255,g=125,b=0, -- color
     max_units=1,
     units_per_minute=1,
-    x=-582.75408935547,y=2040.2711181641,z=129.25628662109,
+    x=-587.59161376954,y=2049.3256835938,z=129.89027404786,
     radius=2, height=1.0, -- area
     recipes = {
       ["Mine Diamond"] = { -- action name
-       description="Mine your ruby here.",
+       description="Mine your Diamond here.",
         in_money=0, -- money taken per unit
         out_money=0, -- money earned per unit
         reagents={}, -- items taken per unit
