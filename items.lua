@@ -1,7 +1,7 @@
 -- define items, see the Inventory API on github
 
 local cfg = {}
--- see the manual to understand how to create parametric items
+-- see the manual to understand how to create parametric items  
 -- idname = {name or genfunc, description or genfunc, genfunc choices or nil, weight or genfunc}
 -- a good practice is to create your own item pack file instead of adding items here
 cfg.items = {
@@ -19,6 +19,9 @@ cfg.items = {
   ["ruby"] = {"rubys", "rubys", nil, 1}, -- no choices
   ["emerald"] = {"Emeralds", "Emeralds.", nil, 1}, -- no choices
   ["diamond"] = {"Diamonds", "Diamonds", nil, 1}, -- no choices
+  ["dcoin"] = {"Diamond Coin", "Diamond Coin", nil, 1}, -- no choices
+  ["emeraldring"] = {"emerald ring", "emerald ring", nil, 1}, -- no choices
+  ["rubychain"] = {"ruby chain", "ruby chain", nil, 1}, -- no choices
 }
 
 -- load more items function

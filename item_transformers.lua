@@ -235,7 +235,7 @@ cfg.item_transformers = {
         out_money=0, -- money earned per unit
         reagents={}, -- items taken per unit
         products={
-		["Emerald"] = 1
+		["emerald"] = 1
 		}, -- items given per unit
         aptitudes={} -- optional
       }
@@ -256,6 +256,72 @@ cfg.item_transformers = {
         reagents={}, -- items taken per unit
         products={
 		["diamond"] = 1
+		}, -- items given per unit
+        aptitudes={} -- optional
+      }
+    }
+  },
+  {
+    name="refine ruby", -- menu name 1072.471069336,-1957.5615234375,31.01424407959
+    r=255,g=125,b=0, -- color
+    max_units=1,
+    units_per_minute=1,
+    x=1072.471069336,y=-1957.5615234375,z=31.01424407959,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["refine ruby"] = { -- action name
+       description="Refine Rubys",
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+		["ruby"] = 5
+	}, -- items taken per unit
+        products={
+		["rubychain"] = 1 
+		}, -- items given per unit
+        aptitudes={} -- optional
+      }
+    }
+  },
+  {
+    name="refine emerald", -- menu name 1072.471069336,-1957.5615234375,31.01424407959
+    r=255,g=125,b=0, -- color
+    max_units=1,
+    units_per_minute=1,
+    x=1072.471069336,y=-1957.5615234375,z=31.01424407959,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["refine emerald"] = { -- action name
+       description="Refine Emeralds",
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+		["emerald"] = 10
+	}, -- items taken per unit
+        products={
+		["emeraldring"] = 1 
+		}, -- items given per unit
+        aptitudes={} -- optional
+      }
+    }
+  },
+  {
+    name="refine Diamonds", -- menu name 1072.471069336,-1957.5615234375,31.01424407959
+    r=255,g=125,b=0, -- color
+    max_units=1,
+    units_per_minute=1,
+    x=1072.471069336,y=-1957.5615234375,z=31.01424407959,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["Refine Diamond"] = { -- action name
+       description="Refine Diamond into diamond coins.",
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+		["diamond"] = 15
+	}, -- items taken per unit
+        products={
+		["dcoin"] = 1 
 		}, -- items given per unit
         aptitudes={} -- optional
       }
